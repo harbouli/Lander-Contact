@@ -102,7 +102,7 @@ nav{
     width: 85%;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.5rem;;
+    gap: 0.5rem;
 }
 .container div p a{
     text-decoration: none;
@@ -132,15 +132,15 @@ nav{
 button{
     margin: 20px 50px 0 0;
     float: right;
-    padding: 25px 30px;
+    padding: 20px 50px;
     background-color: #F38E58;
     border: none;
     color: white;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 .flex img{
     margin-right: 15px;
@@ -163,4 +163,76 @@ button{
 ::placeholder{
     font-style: italic;
     color: rgb(206, 206, 206);
+}
+footer{
+    margin-top: 150px;
+    background-color: #404040;
+    width: 100%;
+    height: auto;
+}
+.ft-container{
+    margin: auto;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 0.3rem;
+    padding: 30px 0 ;
+}
+
+
+.ft-container div ul{
+    padding: 0;
+}
+.ft-container div ul li{
+    color: white;
+    list-style: none;
+    margin-bottom: 2px;
+
+}
+.ft-container div ul li a{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+::selection{
+    background-color: #F38E58;
+    color: white;
+}
+.icons li{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.btn{
+    color: white;
+    padding: 20px ;
+    background-color: #032030;
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.copyright{
+    width: 100%;
+    margin: auto;
+    background-color: #333333;
+    padding: 10px 0;
+}
+.container-ff{
+    width: 95%;
+    color: rgba(255, 255, 255, 0.6);
+    margin: auto;
+}
+.container-ff a{
+    color: #F38E58;
+    text-decoration: none;
+}
+textarea{
+    resize: none;
 }
